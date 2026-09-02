@@ -4,7 +4,7 @@ import logging
 import random
 from typing import TYPE_CHECKING
 
-from homeconnect_websocket.message import Action, Message, load_message
+from home_disconnect.message import Action, Message, load_message
 
 from homeconnect_ws_sim.const import NI_CONFIG, NI_INFO
 

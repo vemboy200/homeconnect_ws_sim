@@ -4,14 +4,14 @@ import asyncio
 from abc import ABC
 from typing import TYPE_CHECKING, Any
 
-from homeconnect_websocket.entities import Access
-from homeconnect_websocket.helpers import TYPE_MAPPING
-from homeconnect_websocket.message import Action, Message
+from home_disconnect.entities import Access
+from home_disconnect.helpers import TYPE_MAPPING
+from home_disconnect.message import Action, Message
 
 if TYPE_CHECKING:
     from collections.abc import Callable, Coroutine
 
-    from homeconnect_websocket.entities import EntityDescription
+    from home_disconnect.entities import EntityDescription
 
     from .appliance import SimAppliance
 

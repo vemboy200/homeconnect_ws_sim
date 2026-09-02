@@ -10,14 +10,14 @@ from typing import TYPE_CHECKING
 from zipfile import ZipFile
 
 from aiohttp import BodyPartReader, MultipartReader, web
-from homeconnect_websocket import parse_device_description
+from home_disconnect import parse_device_description
 
 from .appliance import SimAppliance
 
 if TYPE_CHECKING:
     import asyncio
 
-    from homeconnect_websocket import DeviceDescription
+    from home_disconnect import DeviceDescription
 
     from .entities import Entity
 

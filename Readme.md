@@ -1,6 +1,9 @@
 # HomeConnect Websocket Simulator
 
-Simulator of the Websocket interface of a HomeConnect Appliance. For development and testing with the [HomeConnect Websocket](https://github.com/chris-mc1/homeconnect_websocket) client.
+Simulator of the Websocket interface of a HomeConnect Appliance. For development and testing with the [Home Disconnect](https://github.com/vemboy200/home-disconnect) client.
+
+> [!NOTE]
+> This is a fork of [chris-mc1/homeconnect_ws_sim](https://github.com/chris-mc1/homeconnect_ws_sim), retargeted to depend on the [Home Disconnect](https://github.com/vemboy200/home-disconnect) fork instead of the original `homeconnect_websocket` package.
 
 ![Web GUI](images/webgui.png)
 
@@ -18,7 +21,7 @@ Simulator of the Websocket interface of a HomeConnect Appliance. For development
 
 ## Advanced option
 
-* The Profile file upload also supports Diagnostic Dumps from the [Home Connect Local](https://github.com/chris-mc1/homeconnect_local_hass) Homeassistant integration. When using this option the full Appliance state will be restored.
+* The Profile file upload also supports Diagnostic Dumps from the [Home Connect Local](https://github.com/vemboy200/homeconnect_local_hass) Homeassistant integration. When using this option the full Appliance state will be restored.
 * The used PSK Key can be overridden using a CLI argument.
 
 ## CLI Arguments

@@ -24,9 +24,9 @@ from .session import SimSession
 if TYPE_CHECKING:
     import asyncio
 
-    from homeconnect_websocket import DeviceDescription
-    from homeconnect_websocket.entities import DeviceInfo
-    from homeconnect_websocket.message import Message
+    from home_disconnect import DeviceDescription
+    from home_disconnect.entities import DeviceInfo
+    from home_disconnect.message import Message
 
 
 class SimAppliance:
