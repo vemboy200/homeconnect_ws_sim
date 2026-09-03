@@ -200,7 +200,7 @@ class Server:
 
     async def websocket_handler(self, request: web.Request) -> web.WebSocketResponse:
         _LOGGER.info("WebSocket connection from %s", request.remote)
-        ws = web.WebSocketResponse(heartbeat=2)
+        ws = web.WebSocketResponse(heartbeat=30)
         await ws.prepare(request)
         if self.appliance:
             await ws.send_json(
