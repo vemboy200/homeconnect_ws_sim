@@ -9,7 +9,7 @@ authors = [{ name = "chris-mc1" }, { name = "vemboy200" }]
 description = "Homeconnect Websocket Simulator"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = ["aiohttp>=3.11.13", "home-disconnect>=1.7.0b0"]
+dependencies = ["aiohttp>=3.11.13", "home-disconnect>=1.7.0b1"]
 
 [project.urls]
 Homepage = "https://github.com/vemboy200/homeconnect_ws_sim"
